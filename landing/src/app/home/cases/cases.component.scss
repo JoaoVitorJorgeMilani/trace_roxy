@@ -1,0 +1,25 @@
+img {
+  min-height: 300px;
+  max-height: 750px;
+  max-width: 1320;
+  object-fit: cover;
+}
+
+.case-1 img {
+  content: url(./../../../assets/img/latrel_laydown.jpg);
+}
+
+.case-2 img {
+  content: url(./../../../assets/img/latrel_stand.jpg);
+}
+
+.case-3 img {
+  content: url(./../../../assets/img/latrel_hitting_on.jpg);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.35); //transparencia
+  padding: 1rem;
+  border-radius: 10px;
+}
+
